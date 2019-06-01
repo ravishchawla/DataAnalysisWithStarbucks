@@ -19005,6 +19005,22 @@ Wall time: 1.04 s
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Improving-the-work">Improving the work<a class="anchor-link" href="#Improving-the-work">&#182;</a></h4><p>We obtained good results with our model after tuning it with a Random Forest. However, there are some areas that could use improvement. The areas I would like to try to work on as an update to this work are:</p>
+<ol>
+<li><p>Instead of relying only on Random Forests, we should compare them against a different model as well. I did use a SVM for an initial benchmark, and it showed promising results with default parameters. This model should have been fine tuned using a Grid Search, to try out different types of kernels, both polynomial and RBF. A non-linear kernel makes more sense for this type of data because there are a lot of numerical attributes.</p>
+</li>
+<li><p>We can make the Status value of auser's response to an offer more granular. The values we obtained are weather a user has viewed, or not viewed an offer, while completing it. There is more information that is availabile in the transcript, such as if the offer was not completed at all, but started. The number of transactions related to an offer could be binned and also separated into individual columns.</p>
+</li>
+<li><p>We could also look at the value of status and see how different demographics relate to it. This could be done by using a supervised learning model to try to train on learning the Status value. To train such a model, we have a lot of available data, because we would be using the transcript records, which would be coupled with information from both profile (demographics) and portfolio (offer details).</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Deploying">Deploying<a class="anchor-link" href="#Deploying">&#182;</a></h3><p>The code in the Jupyter Notebook will be posted on GitHub, with a ReadMe file to provide information on how to run the code locally.</p>
 
 </div>
