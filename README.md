@@ -20,29 +20,25 @@ Packages used by this project can also be installed as a Conda Environment using
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interested in exploring the AirBnB dataset from Seattle to better understand the following questions:
-1. What distinguishes hosts that have Superhost status? Do all Superhosts properly qualify the criteria that AirBnB has set for them?
-2. What time of the year are AirBnBs most popular in Seattle? Are specific holiday seasons more popular?
-3. What are the most important characteristics of a listing, and how do they influence price?
+For this project, I was interested in exploring the Starbucks dataset to better understand the following questions:
+1. How does Gender influence how much someone spends at Starbucks? Do men spend more than women, or the other way around?
+2. How many people view and complete offers? And how many people complete offers without opening them first?
+3. What are the attributes that most contribute to someone’s spending habits at Starbucks?
+
 
 ## File Descriptions <a name="files"></a>
 
-The main code for this project is included in the notebook `Data Exploration with AirBnB.ipynb`. The notebook walks through all the steps of the CRISP-DM Process for analyzing the dataset to answer the above three questions. The code and results are also posted on Medium as a [blog post](https://medium.com/@ravishchawla/how-can-you-get-the-most-out-of-your-airbnb-listing-7df1fe4b0309).
+The main code for this project is included in the notebook `Starbucks_Capstone_notebook.ipynb`. The notebook walks through all the steps of the CRISP-DM Process for analyzing the dataset to answer the above three questions. The code and results are also posted on Medium as a [blog post](https://medium.com/@ravishchawla/how-much-do-you-spend-at-starbucks-4f142138924a).
 
-Data for the project is not included because of large file sizes. To properly run the notebook, it must be placed in `data` -> `Seattle`. The directory should have the following files:
-* `calendar.csv`
-* `listings.csv`
-* `reviews.csv`
-
-Along with the AirBnB data, the Federal Holidays dataset (from [kaggle](https://www.kaggle.com/gsnehaa21/federal-holidays-usa-19662020)) will also have to be included in the `data` directory. This file is `usaholidays.csv`.
-
-Charts used for the Medium blog post and the Notebook are included in the `charts` directory.
+Data for the project is included because of small file sizes. To properly run the notebook, they must be kept in the same locations at `data`. The directory should have the following files:
+* `transcript.json`
+* `profile.json`
+* `portfolio.json`
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@ravishchawla/how-can-you-get-the-most-out-of-your-airbnb-listing-7df1fe4b0309).
-
+The main findings of the code can be found at the post available [here](https://medium.com/@ravishchawla/how-much-do-you-spend-at-starbucks-4f142138924a).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Credit to AirBnB for providing the data. You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/airbnb/seattle), and [here](https://www.kaggle.com/gsnehaa21/federal-holidays-usa-19662020/home). This code is free to use.
+Credit to Starbucks for providing the data. You can find the Licensing for the data and other descriptive information from [Udacity](https://www.udacity.om). This code is free to use.
