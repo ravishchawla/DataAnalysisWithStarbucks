@@ -37,7 +37,16 @@ Data for the project is included because of small file sizes. To properly run th
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@ravishchawla/how-much-do-you-spend-at-starbucks-4f142138924a).
+In our Data Analysis, we answered the three questions that we set out to explore with the Starbucks Transactions dataset.
+
+- Gender does influence how much a person spends at Starbucks. While Men tend to have more purchases, **Women tend to make more expensive purchases**. On average, women spend around **$6 more** per purchase at Starbucks.
+
+- A significant portion of members do view and complete offers at Starbucks. Based on the dataset, **25%** of individuals actually receive, view, and complete the offers by making purchases associated with the offer. Furthermore, **10%** of individuals complete offers without actually viewing them first, completing them unintentionally.
+
+- The attributes that most contribute to how much someone spends at Starbucks are **Income** and **Age**. While there are other contributing factors, such as Gender (as we saw previously), Income is the highest influencer with over **55%** importance when trying to predict the price of a coffee.
+
+
+More detailed findings can be found at the post available [here](https://medium.com/@ravishchawla/how-much-do-you-spend-at-starbucks-4f142138924a).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
